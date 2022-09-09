@@ -1,0 +1,182 @@
+body {
+  background-color: #ece7e7;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  color: #383838;
+  font-family: "Lucida Sans", "sans-serif";
+}
+
+.jumbotron {
+  padding-left: 60px;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.1rem;
+  font-family: "sans-serif";
+}
+
+.foto-profil {
+  width: 10em;
+  border-radius: 50%;
+  margin: 0.5rem;
+  box-shadow: 0.1rem 0.3rem 0.3rem 0.1rem #7e7878;
+}
+
+.medsos {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding-left: 1rem;
+  color: #5dadec;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.star {
+  text-align: center;
+}
+
+main {
+  padding-bottom: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.konten {
+  margin-top: 1rem;
+}
+
+.tentang {
+  margin-right: 1em;
+  margin-left: 1em;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.tentang p {
+  font-size: 1.25rem;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.deskripsi {
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.deskripsi p,
+h2,
+h3 {
+  line-height: 1.3rem;
+  margin: 0.5rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tahun {
+  font-style: italic;
+}
+
+.border {
+  border-bottom: solid #7e7878;
+  border-width: 0.15rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.konten-box {
+  display: flex;
+  background-color: #72b5e2;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  box-shadow: 0.1rem 0.3rem 0.3rem 0.1rem #7e7878;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-img {
+  height: 12rem;
+  padding: 0;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+
+form {
+  margin-top: 0.5rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  border-style: none;
+  border-radius: 0.25rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem;
+}
+
+input,
+select {
+  height: 2rem;
+}
+
+button {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  background-color: #383838;
+  color: #ece7e7;
+}
+
+button:hover {
+  background-color: #424141;
+  cursor: pointer;
+}
+
+.kaki {
+  background-color: #383838;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .tentang p {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .konten-box {
+    border-radius: 0;
+  }
+
+  .portfolio-img {
+    height: 10rem;
+  }
+}
